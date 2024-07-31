@@ -1,0 +1,39 @@
+Here's a description you can use for the GitHub repository of your To-Do List project:
+
+---
+
+# To-Do List Web Application
+
+This repository contains the source code for a To-Do List web application built with HTML, CSS, and JavaScript. The app allows users to manage their tasks with features such as adding, editing, marking as completed, and deleting tasks. The design is responsive and user-friendly, making it accessible on various devices.
+
+## Features
+
+- **Add Task**: Click the "Add To Task" button to display the input field and submit button for entering a new task. The input field and submit button will hide after adding the task.
+- **Edit Task**: Users can edit tasks by clicking the "Edit" button next to a task. While editing, the input field will be pre-filled with the current task text, allowing users to update it. The "Edit" and "Completed" buttons for the task being edited are disabled to prevent further actions until the update is confirmed. The edit function remains enabled for other tasks, excluding completed tasks.
+- **Mark as Completed**: Clicking the "Completed" button strikes through the task text and disables the "Edit" and "Completed" buttons for that task, indicating it is completed. The "Delete" button remains enabled.
+- **Delete Task**: Users can delete individual tasks by clicking the "Delete" button next to the task or use the "Multi Delete" button to remove multiple selected tasks at once.
+- **Task Management**: The app keeps track of the task status, ensuring completed tasks cannot be edited and enabling appropriate buttons based on the current task state.
+
+## Usage
+
+1. Clone the repository to your local machine.
+2. Open `index.html` in your web browser to use the application.
+3. Customize the app by editing the HTML, CSS, and JavaScript files as needed.
+
+## Structure
+
+- `index.html`: The main HTML file that contains the structure of the app.
+- `Task4.js`: The JavaScript file that implements the functionality of the app, including task management and button states.
+- `Task4.css`: The CSS file that styles the app, providing a clean and responsive design.
+
+## Contributing
+
+Feel free to fork this repository and make contributions. You can open issues for any bugs or suggestions and submit pull requests with improvements or new features.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+This description provides an overview of the project's features, usage instructions, structure, and contribution guidelines, making it easy for others to understand and contribute to the project.
